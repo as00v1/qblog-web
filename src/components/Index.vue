@@ -1,12 +1,16 @@
 <template>
     <div class="container">
-        <div class="col-sm-6 col-md-8">
+      <div class="row">
+        <div class="col-8">
             <ArticleList></ArticleList>
         </div>
-        <div class="col-sm-6 col-md-4">
+      </div>
+      <div class="row">
+        <div class="col-4">
             <UserInfo></UserInfo>
             <Group></Group>
         </div>
+      </div>
     </div>
 </template>
 <script>

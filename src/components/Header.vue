@@ -1,48 +1,41 @@
 <template>
-    <nav class="navbar navbar-default">
-       <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#/"><span class="glyphicon glyphicon-console" aria-hidden="true"></span> Qblog</a>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">BLOG</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#/">首页 <span class="sr-only">(current)</span></a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">分类 <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">JAVA</a></li>
-                <li><a href="#">DOCKER</a></li>
-                <li><a href="#">LINUX</a></li>
-                <!-- <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">One more separated link</a></li> -->
-              </ul>
-            </li>
-            <li><a href="#">关于</a></li>
-          </ul>
-          <!-- <form class="navbar-form navbar-left">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search">
-            </div>
-            <button type="submit" class="btn btn-default">Submit</button>
-          </form> -->
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#/login">登录</a></li>
-            <li><button type="button" class="btn btn-default navbar-btn" @click = "toRegister()">注册</button></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-       </div><!-- /.container-fluid -->
-    </nav>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">主页 <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">链接</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            归档
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">JAVA</a>
+            <a class="dropdown-item" href="#">DOCKER</a>
+            <div class="dropdown-divider"></div><!-- 分割 -->
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li> -->
+      </ul>
+      <!-- <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form> -->
+      <a class="nav-link" href="#/login">登录</a>
+      <button class="btn btn-outline-primary my-2 my-sm-0" type="button" @click="toRegister">注册</button>
+    </div>
+  </nav>
 </template>
 
 <script>
@@ -52,7 +45,6 @@ export default {
   name: 'Header',
   data () {
     return {
-      icpNum: '京ICP备19014671号'
     }
   },
   components: {
