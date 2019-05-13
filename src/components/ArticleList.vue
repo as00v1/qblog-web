@@ -1,39 +1,32 @@
 <template>
   <div>
-    <div class="list-group">
-      <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-        <div class="d-flex w-100 justify-content-between">
-          <h5 class="mb-1">文章一</h5>
-          <small>今天</small>
+    <div class="card">
+        <div class="card-body">
+          <h4><a href="#" class="card-link">文章一</a></h4>
+          <h6>子标题 <small>今天</small></h6>
+          <p class="lead">这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容
+            这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容
+          </p>
+          <a href="#" class="card-link">阅读原文</a>
         </div>
-        <p class="mb-1">这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容
-          这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容
-          这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容
-        </p>
-        <small>java docker</small>
-      </a>
-      <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-        <div class="d-flex w-100 justify-content-between">
-          <h5 class="mb-1">文章二</h5>
-          <small>3天前</small>
+        <div class="card-body">
+          <h4 ><a href="#" class="card-link">文章一</a></h4>
+          <h6>子标题 <small>今天</small></h6>
+          <p class="lead">这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容
+            这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容
+            这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容
+          </p>
+          <a href="#" class="card-link">阅读原文</a>
         </div>
-        <p class="mb-1">这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容
-          这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容
-          这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容
-        </p>
-        <small>java docker</small>
-      </a>
-      <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-        <div class="d-flex w-100 justify-content-between">
-          <h5 class="mb-1">文章三</h5>
-          <small>2019年5月11日</small>
+        <div class="card-body">
+          <h4 ><a href="#" class="card-link">文章一</a></h4>
+          <h6>子标题 <small>今天</small></h6>
+          <p class="lead">这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容
+            这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容
+            这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容
+          </p>
+          <a href="#" class="card-link">阅读原文</a>
         </div>
-        <p class="mb-1">这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容
-          这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容
-          这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容这是一些内容
-        </p>
-        <small>java docker</small>
-      </a>
     </div>
     <nav aria-label="Page navigation example">
       <ul class="pagination">
