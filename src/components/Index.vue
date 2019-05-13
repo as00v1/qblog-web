@@ -1,14 +1,16 @@
 <template>
     <div class="container">
       <div class="row">
-        <div class="col-8">
-            <ArticleList></ArticleList>
+        <div class="col-sm-8">
+          <div class="jumbotron text-center">
+            <h3>某人的博客</h3>
+            <p>树欲静而风不止</p>
+          </div>
+          <ArticleList></ArticleList>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-4">
-            <UserInfo></UserInfo>
-            <Group></Group>
+        <div class="col-sm-4">
+          <UserInfo></UserInfo>
+          <Group></Group>
         </div>
       </div>
     </div>
